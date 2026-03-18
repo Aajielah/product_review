@@ -1,0 +1,138 @@
+body{
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  min-height: 100vh;
+  margin-top: 3.125rem;
+  margin-left: 20rem;
+}
+
+.body{
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-bottom: 1.875rem;
+  width: 16.875rem;
+  margin: 0;
+  border-bottom-left-radius: 0.3125rem;
+  border-bottom-right-radius: 0.3125rem;
+}
+
+.image{
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.product{
+  width: 16.875rem;
+  border-top-left-radius: 0.3125rem;
+  border-top-right-radius: 0.3125rem;
+}
+
+.perfume{
+  margin-top: 1.25rem;
+  font-size: 0.625rem;
+  font-family:  'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3125rem;
+  font-weight: 500;
+  padding-left: 1.25rem;
+  color: hsl(228, 12%, 48%);
+}
+
+.heading{
+  margin: 0;
+  padding-left: 1.25rem;
+  width: 15.625rem;
+  margin-top: 0.3125rem;
+  font-family: 'Fraunces', serif;
+  font-weight: bold;
+}
+
+.text{
+  padding-left: 1.25rem;
+  width: 13.75rem;
+  line-height: 1.4;
+  font-size: 0.6875rem;
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.price{
+  display: flex;
+  align-items: center;
+  padding-left: 1.25rem;
+  color: hsl(158, 42%, 18%);
+  margin: 0;
+  font-size: 1.5625rem;
+  margin-bottom: 1.25rem;
+  font-family: 'Fraunces', serif;
+}
+
+.real-price {
+  font-size: 0.875rem;
+  font-family: none;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  margin-left: 0.625rem;
+}
+
+.cart{
+  margin: 0 auto;
+   padding: 0.9375rem 4.375rem;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 0.3125rem;
+  color: white;
+  text-align: center;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  font-size: 0.6875rem;
+  font-family: 'Fraunces', serif;
+}
+
+.icon{
+  width: 0.8125rem;
+  height: 0.8125rem;
+}
+
+.desktop-image{
+  display: none;
+}
+
+
+@media (min-width: 768px){
+.product{
+  display: none;
+}
+
+.cover{
+  display: flex;
+  align-content: center;
+  max-width: 600px;
+}
+
+.desktop-image{
+  display: block;
+  width: 14.375rem;
+}
+
+.body{
+  width: 15.625rem;
+}
+
+.heading{
+  width: 11.25rem;
+}
+
+.text{
+  width: 11.875rem;
+}
+
+}
